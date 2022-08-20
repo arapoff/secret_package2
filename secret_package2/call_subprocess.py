@@ -1,3 +1,4 @@
 import subprocess
 
-subprocess.call(['bwa', 'index']) 
+def call_bwa():
+  subprocess.call(['bwa', 'index']) 
